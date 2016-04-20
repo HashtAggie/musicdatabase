@@ -1,0 +1,17 @@
+<div class="song-item">
+
+   <div class="inline album">
+      <img class="small-album" src="<%= song.album %>"/>
+   </div>
+
+   <div class="inline details">
+
+      <h3><%= link_to album.title, song %></h3>
+      <h4><%= link_to song.artist.name, album.artist %></h4>
+
+      <p><%= song.year %></p>
+      <p><%= song.bio %></p>
+
+   </div>
+
+</div>
